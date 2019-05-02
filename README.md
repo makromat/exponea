@@ -1,7 +1,11 @@
 # Exponea Assignment
 ## Integration Services Engineer
 The goal of this assignment is to build a simple transformation service for online orders and refunds.
-You will be using a simple Express JS template to build your own service. To launch the service template use
+You will be using a simple Express JS template to build your own service. To install the required libraries use:
+    
+    npm install
+    
+To launch the service template use
 
     node index.js
 
