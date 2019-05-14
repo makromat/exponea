@@ -23,7 +23,7 @@ The original file is in a delimiter-separated format using `|` as the delimiter.
 
 `action` - `order` or `refund` based on whether the product was purchased or returned
 
-The output file should be in a comma-separated format. Each line should contain exactly one order/refund. It should contain the following columns:
+The output file should be in a comma-separated format. Each line should contain exactly one order/refund. Each order can be identified by a combination of `email` and `order_id` It should contain the following columns:
 
 `email_id` - Base64 encoded email address of the person that has made the order
 
