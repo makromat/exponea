@@ -9,7 +9,6 @@ const Transform  = require('stream').Transform;
 var localStorage = [];
 
 app.get('/load', (request, response) => {
-
     axios({
         method: 'get',
         url: fileUrl,
